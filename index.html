@@ -4,10 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link href="./output.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 
     <title>Landing-page</title>
 </head>
 <body>
-    
+    <div>
+        <header class="flex justify-between items-center px-6 py-4">
+
+        <h2 class="text-sm font-medium">
+            Uriah Gilmore
+        </h2>
+
+        <nav>
+            <ul class="flex items-center gap-8" id="nav">
+                <li class="transition-all duration-300 hover:text-2xl"><a href="#projects">Projects</a></li>
+                <li class="transition-all duration-300 hover:text-2xl"><a href="#about">About</a></li>
+                <li class=" transition-all duration-300 hover:text-2xl"><a href="#journal">Journal</a></li>
+            </ul>
+        </nav>
+
+        <button class="bg-gray-100 px-3 py-1 rounded cursor-pointer">Let's chat</button>
+
+    </header>
+
+    </div>
 </body>
 </html>
