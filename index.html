@@ -12,26 +12,117 @@
     <div>
         <header class="flex justify-between items-center px-6 py-4">
 
-        <h2 class="text-sm font-medium">
+        <h2 class="text-sm font-medium  md:text-base sm:text-lg">
             Uriah Gilmore
         </h2>
 
         <nav>
             <ul class="flex items-center gap-5 md:gap-9 sm:gap-8 " id="nav">
-                <li class="transition-all duration-300 text-xs md:text-xl sm:text-xl hover:text-3xl hover:sm:text-2xl"><a href="#projects">Projects</a></li>
-                <li class="transition-all duration-300 text-xs md:text-xl sm:text-xl hover:text-3xl hover:sm:text-2xl"><a href="#about">About</a></li>
-                <li class=" transition-all duration-300 text-xs md:text-xl sm:text-xl hover:text-3xl hover:sm:text-2xl"><a href="#journal">Journal</a></li>
+               
+             <li class="border-b-2 border-transparent text-xs transition-all duration-300 hover:border-amber-400 hover:text-xl sm:text-xl sm:hover:text-2xl"><a         href="#projects">Projects</a></li>
+                <li class="border-b-2 border-transparent text-xs transition-all duration-300 hover:border-amber-400 hover:text-xl sm:text-xl sm:hover:text-2xl"><a href="#about">About</a></li>
+                <li class="border-b-2 border-transparent text-xs transition-all duration-300 hover:border-amber-400 hover:text-xl sm:text-xl sm:hover:text-2xl"><a href="#journal">Journal</a></li>
             </ul>
         </nav>
 
-        <button class="bg-gray-100 px-3 py-1 rounded cursor-pointer text-xs md:text-xs sm:text-lg hover:text-3xl hover:sm:text-2xl">Let's chat</button>
+        <button class="bg-gray-100 px-3 py-1 rounded cursor-pointer text-xs md:text-base sm:text-lg ">Let's chat</button>
 
     </header>
 
     <main>
-        <h1 class="px-6 py-28 text-4xl font-bold font-sans md:text-6xl sm:text-5xl">Shadows Of Sicily</h1>
+        <h1 class="px-6 py-19 pb-1 text-4xl font-bold font-sans md:text-6xl sm:text-5xl">Shadows Of Sicily</h1>
     </main>
 
+   
+    
+  <section class="flex flex-col gap-6 px-4 py-6 sm:px-6 lg:flex-row lg:justify-between lg:items-start"> 
+
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-3 lg:grid-cols-3 lg:gap-8 text-left">
+
+        <article>
+            <h3 class="px-1 py-1 text-xs font-medium text-gray-600 sm:text-sm">
+                Captured:
+            </h3>
+            <p class="px-1 text-sm font-semibold">
+                Spring 2024, Sicily
+            </p>
+        </article>
+
+        <article>
+            <h3 class="px-1 py-1 text-xs font-medium text-gray-600 sm:text-sm">
+                Series Type:
+            </h3>
+            <p class="px-1 text-sm font-semibold">
+                Ongoing Field Study
+            </p>
+        </article>
+
+        <article>
+            <h3 class="px-1 py-1 text-xs font-medium text-gray-600 sm:text-sm">
+                Camera & Film:
+            </h3>
+            <p class="px-1 text-sm font-semibold break-words">
+                Fuji GFX 100S + Portra 400 Simulation
+            </p>
+        </article>
+
     </div>
+
+     
+    <div class="shrink-0 text-left text-xs sm:text-sm lg:text-right">
+        <a href="#purchase"
+           class="inline-block border-b-2 border-amber-400 pb-1 font-medium">
+            PURCHASE A PRINT &#8594;
+        </a>
+    </div>
+
+   </section>
+
+
+    
+    <section id="projects">
+    <div class=" px-6 py-19 pb-5 pt-1 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-3 ">
+
+        <img src="photo/img-1.jpg" alt="Street in Sicily"
+             class="w-100 h-full md:w-full md:h-full sm:w-full sm:h-full object-cover">
+
+        <img src="photo/img-2.jpg" alt="Sicilian architecture"
+             class="w-100 h-full md:w-full md:h-full sm:w-full sm:h-full object-cover">
+
+        <img src="photo/img-3.jpg" alt="Sicilian landscape"
+             class="w-100 h-full md:w-full md:h-full sm:w-full sm:h-full object-cover">
+
+        <img src="photo/img-4.jpg" alt="Sicilian street"
+             class="w-100 h-full md:w-full md:h-full sm:w-full sm:h-full object-cover">
+
+    </div>
+   </section>
+    </div>
+
+    
+
+   <footer class="flex flex-col gap-5 border-t border-gray-200 px-4 py-6 sm:px-6 sm:py-8 lg:flex-row lg:items-start lg:justify-between lg:gap-12">
+
+    <div class="flex flex-col gap-2 lg:flex-1">
+        <h3 class="text-xs font-medium tracking-widest text-gray-500">
+            01/
+        </h3>
+
+        <p class="text-xl font-medium tracking-tight text-gray-900 sm:text-2xl">
+            Streets of Sicily
+        </p>
+    </div>
+
+    <div class="max-w-md text-sm leading-6 text-gray-500 sm:text-base sm:leading-7 lg:w-2/5 lg:text-right">
+        <p>
+            A visual journey through the timeless streets, quiet corners,
+            and sunlit landscapes of Sicily. Capturing authentic moments,
+            subtle details, and the beauty of everyday life through the
+            lens of photography.
+        </p>
+    </div>
+
+</footer>
+
 </body>
 </html>
